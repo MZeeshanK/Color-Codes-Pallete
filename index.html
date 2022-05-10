@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Codes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="container">
+    <h1 class="heading">Color Codes</h1>
+    <div class="choose">
+      <button class="btn btn-1">RGB Code</button>
+      <button class="btn btn-2">Hexa Code</button>
+    </div>
+    <div class="parah">
+      <h2 class="info">Choose either to generate code in decimal or hexadecimal values</h2>
+    </div>
+    <div class="block-1">
+      <div id="rgb" class="color"></div>
+    <div class="slider">
+      <label>Red</label>
+      <input type="range"  id="red" min="0" max="255" class="input" value="0">
+      <label>Green</label>
+      <input type="range" id="green" min="0" max="255" class="input" value="0">
+      <label>Blue</label>
+      <input type="range" id="blue" min="0" max="255" class="input" value="0">
+    </div>
+    </div>
+    <div class="block-2">
+      <div class="color-hex"></div>
+    <div class="hex">
+      <label>Red</label>
+      <input type="range" class="input" id="red-hex" min="0" max="255" value="0">
+      <label>Green</label>
+      <input type="range" class="input" id="green-hex" min="0" max="255" value="0">
+      <label>Blue</label>
+      <input type="range" class="input" id="blue-hex" min="0" max="255" value="0">
+    </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container bg-dark">
+    <div class="social">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>CopyRights &copy; by MZeeshanK 2022, All Rights Reserved</p>
+  </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
