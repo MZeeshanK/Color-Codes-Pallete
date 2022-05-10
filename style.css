@@ -96,6 +96,7 @@ body{
   transform: translateY(400%);
   padding: 10px;
   text-transform: uppercase;
+  text-align: center;
   font-size: 20px;
   color: #ddd;
 }
@@ -232,5 +233,12 @@ label{
     color: #ddd;
     background:#000;
     text-align: center;
+  }
+  .btn{
+    font-size: 12px;
+    padding: 10px;
+  }
+  .parah .info{
+    font-size: 20px;
   }
 }
